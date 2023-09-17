@@ -1,0 +1,44 @@
+.navbar{
+
+     font-size: 38;
+     color:"#fff";
+     font-weight: 450;
+     align-items:center;
+     
+}
+
+.logo{
+
+    width: 330px;
+    height: 90px;
+}
+
+.btn{
+
+     width: 150px;
+     height: 50px;
+     color:white;
+     border-width: 1;
+}
+
+
+.btnn{
+     
+     /* width: 300; */
+     background-color: "#fff";
+}
+
+@media only screen and (max-width: 600px) {
+    .logo{
+
+          width: 130px;
+          height: 60px;
+    }
+
+    .btnn{
+
+         display: flex;
+         align-items: center;
+    }
+   
+  }
